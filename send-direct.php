@@ -15,6 +15,8 @@ $channel = $connection->channel();
 $queue_name = 'task_queue';
 // $channel->queue_declare('hello', false, false, false, false);
 //$channel->queue_declare($queue_name, false, true, false, false);
+$channel->queue_declare($queue_name, false, true, false, false);
+
 $channel->exchange_declare('logs', 'direct', false, false, false);
 
 // $msg = new AMQPMessage($data);

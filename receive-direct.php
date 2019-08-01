@@ -82,7 +82,7 @@ while ($is_keep_listen) {
       $worker->listen();
     }
     catch(Exception $e){
-        echo `error happen, retry connect in 5 secs..`;
+        echo 'error happen, retry connect in 5 secs..\n';
         sleep(5);
     }
 }
