@@ -18,3 +18,7 @@ Run receiver first so that queue created first, or the published message will be
 * Original image from https://hub.docker.com/_/rabbitmq
 * Run a rabbitmq container with command
 ```docker run -d --hostname my-rabbit --name some-rabbit -p 8080:15672 -p 5672:5672 rabbitmq:3-management```. It will open port on host level 8080 for web management with default username guest and password guest, also open port 5672 for the sample app can connect
+
+## Installation AMPQ Extentions
+* [Setup composer]https://getcomposer.org/download/
+* [Basic usage composer]https://getcomposer.org/doc/01-basic-usage.md
