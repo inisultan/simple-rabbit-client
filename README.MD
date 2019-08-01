@@ -22,3 +22,4 @@ Run receiver first so that queue created first, or the published message will be
 ## Installation AMPQ Extentions
 * [Setup composer]https://getcomposer.org/download/
 * [Basic usage composer]https://getcomposer.org/doc/01-basic-usage.md
+* [RabbitMQ Hello Wordl]https://www.rabbitmq.com/tutorials/tutorial-one-php.html
